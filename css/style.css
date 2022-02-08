@@ -1,61 +1,61 @@
 /***** STARTER CODE - DO NOT CHANGE *****/
 
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-  background-color: #737373;
-  font-size: 18px;
-  margin: 0;
-  padding: 0;
-  position:relative;
+body {
+    background-color: #737373;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-  font-size: 50px;
-  line-height: 1;
-  padding: 50px 0;
-  text-align: center;
-  color:white;
+h1 {
+    font-size: 50px;
+    line-height: 1;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
 }
 
-h2{
-  font-size: 32px;
-  line-height: 1.5;
+h2 {
+    font-size: 32px;
+    line-height: 1.5;
 }
 
-nav{
-  background-color: #ddd;
-  padding: 25px 10px;   
-  text-align: left;   
+nav {
+    background-color: #ddd;
+    padding: 25px 10px;
+    ;
+    text-align: left;
 }
 
-nav a{
-  color: black;
-  font-weight: bold;
+    nav a {
+        color: black;
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style-type: none;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 5%;
+    }
+
+header p {
+    color: white;
+    font-size: 24px;
+    padding: 0 100px;
+    text-align: center;
 }
 
-nav ul{
-  list-style-type: none;
-}
-
-nav li{
-  display: inline;
-  margin-right: 5%;
-}
-
-header p{
-  color: white;
-  font-size: 24px;
-  padding: 0 100px;
-  text-align: center;
-}
-
-.text{
-  background-color: rgba(255, 255, 255, .8);
-  border: 10px solid black;
-  padding: 30px;
+.text {
+    background-color: rgba(255, 255, 255, .8);
+    border: 10px solid black;
+    padding: 30px;
 }
 
 footer {
@@ -65,10 +65,10 @@ footer {
     text-align: center;
 }
 
-footer a,
-footer a:visited{
-  color: white;
-}
+    footer a,
+    footer a:visited {
+        color: white;
+    }
 /*****  End Starter Code ****/
 
 /* Requirement 1 code here*/
@@ -108,12 +108,16 @@ a.skip {
     grid-row-gap: 30px;
     justify-items: center;
     align-items: center;
+    
 }
 
 /* Requirements 6-10 here: */
 
 .intro {
-    background-color: #DDDDDD #858585 #707070 #B3B3B3;
+    background-color: #DDDDDD;
+    background-color: #858585;
+    background-color: #707070;
+    background-color: #B3B3B3;
     background: url("../images/header.jpg");
     min-height: 400px;
     background-attachment: fixed;
@@ -129,6 +133,7 @@ img {
 
 .about, .clients, .method, .contact {
     grid-column: 2/3;
+    max-height: 25vh;
 }
 
 
@@ -152,14 +157,14 @@ img {
 .about-image, .clients-image, .method-image, .contact-image {
     grid-column: 1/4;
     max-height: 500px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 
 
 .text {
     max-height: 25vh;
-    overflow: auto;
+    overflow: scroll;
     align-self: center;
 }
 
@@ -171,7 +176,6 @@ img {
         padding-top: 35px;
         /*Requirement 11*/
         width: 100%;
-        position: absolute;
         right: 0px;
         text-align: right;
     }
