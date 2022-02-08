@@ -113,7 +113,7 @@ a.skip {
 /* Requirements 6-10 here: */
 
 .intro {
-    background: #DDDDDD #858585 #707070 #B3B3B3;
+    background-color: #DDDDDD #858585 #707070 #B3B3B3;
     background: url("../images/header.jpg");
     min-height: 400px;
     background-attachment: fixed;
@@ -129,7 +129,6 @@ img {
 
 .about, .clients, .method, .contact {
     grid-column: 2/3;
-
 }
 
 
@@ -153,7 +152,7 @@ img {
 .about-image, .clients-image, .method-image, .contact-image {
     grid-column: 1/4;
     max-height: 500px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
@@ -161,6 +160,7 @@ img {
 .text {
     max-height: 25vh;
     overflow: auto;
+    align-self: center;
 }
 
 
