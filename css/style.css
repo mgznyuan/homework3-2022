@@ -114,11 +114,7 @@ a.skip {
 /* Requirements 6-10 here: */
 
 .intro {
-    background-color: #DDDDDD;
-    background-color: #858585;
-    background-color: #707070;
-    background-color: #B3B3B3;
-    background: url("../images/header.jpg");
+    background: #707070 url("../images/header.jpg");
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
